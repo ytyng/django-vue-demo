@@ -7,5 +7,6 @@ from . import apis
 app_name = 'items'
 urlpatterns = [
     path('', views.index, name='index'),
-    path('api/items', views.index, name='index'),
+    path('api/items', apis.items),
+    path('api/item/<int:item_id>', apis.item),
 ]

@@ -1,10 +1,12 @@
 const path = require('path');
 
 module.exports = {
-  context: path.resolve(__dirname, '..'),
-  entry: './src/app/index.js',
+  mode: 'development',
+  devtool: 'source-map',
+  context: path.resolve(__dirname, './src'),
+  entry: './index.js',
   output: {
-    path: path.resolve(__dirname, '../dist'),
+    path: path.resolve(__dirname, './dist'),
     filename: 'bundle.js',
   },
   module: {
@@ -32,5 +34,12 @@ module.exports = {
         loader: 'html-loader',
       },
     ],
+  },
+  resolve: {
+      alias: {
+        'vue$': 'vue/dist/vue.esm.js',
+        'vuex$': 'vuex/dist/vuex.esm.js',
+      },
+      extensions: ['*', '.js', '.vue', '.json']
   },
 };

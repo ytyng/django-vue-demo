@@ -43,3 +43,6 @@ cf.[npm入門](https://qiita.com/maitake9116/items/7825d90c09f3e2f87dea)
 #### nodeライブラリ
 - cd statics
 - npm install
+
+## 注意事項
+- 簡便化のためdjangoのcsrf middlewareを殺しているのでproductにそのまま適用しないこと。
