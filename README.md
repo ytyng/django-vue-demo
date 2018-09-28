@@ -29,7 +29,7 @@ cf.[npm入門](https://qiita.com/maitake9116/items/7825d90c09f3e2f87dea)
 - pyenv local 3.5.x or 3.6.x
 #### 仮想環境
 - pyvenv .venv
-- . ./.venb/bin/activate
+- . ./.venv/bin/activate
 #### pythonライブラリ
 - pip install --upgrade pip
 - pip install -r requirements.txt
