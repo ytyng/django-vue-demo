@@ -34,7 +34,7 @@ cf.[npm入門](https://qiita.com/maitake9116/items/7825d90c09f3e2f87dea)
 - pip install --upgrade pip
 - pip install -r requirements.txt
 #### node
-- node -V
+- node -v
 - npm install -g n
 - sudo n stable
 #### npm
