@@ -1,3 +1,6 @@
+import template from './template.html';
+
 export default {
-// wraite componet here
+  template,
+  props: ['items'],
 }
