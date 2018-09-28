@@ -41,7 +41,7 @@ cf.[npm入門](https://qiita.com/maitake9116/items/7825d90c09f3e2f87dea)
 - npm -v
 - npm update -g npm
 #### nodeライブラリ
-- cd statics
+- cd demo/statics
 - npm install
 
 ## 注意事項
