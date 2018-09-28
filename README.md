@@ -44,5 +44,13 @@ cf.[npm入門](https://qiita.com/maitake9116/items/7825d90c09f3e2f87dea)
 - cd demo/statics
 - npm install
 
+## コマンド
+#### django server
+- django-vue-demo/demoのディレクトリで
+- python manage.py runserver
+#### webpack build
+- django-vue-demo/demo/staticsのディレクトリで
+- npm run build
+
 ## 注意事項
 - 簡便化のためdjangoのcsrf middlewareを殺しているのでproductにそのまま適用しないこと。
