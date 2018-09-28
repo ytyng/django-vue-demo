@@ -1,4 +1,4 @@
-# dango-vue-handson
+# django-vue-handson
 
 ## 用語解説
 - node(node.js) ...サーバサイドで動くJavaScriptもしくはJavaScript実行環境のこと
