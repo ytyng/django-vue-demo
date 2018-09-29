@@ -25,6 +25,10 @@ index.js は app.vue を呼ぶだけにした
 / のURL の際、Django のビューを実行せず、static.serve で index.html をそのまま返すようにした。
 本番なら、nginx から直接返すとよさそう。
 
+### Ajax
+fetch api にしてみた
+(statics/src/components/app.vue)
+
 # PyCharm File Watcher
 ファイルウォッチャーで自動ビルドが可能。
 ```
