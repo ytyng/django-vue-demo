@@ -7,9 +7,10 @@
 </template>
 
 <script>
-    export default {
-        props: ['items'],
-    }
+  export default {
+    name: 'my-items',
+    props: ['items'],
+  }
 </script>
 
 <style lang="scss" scoped>
