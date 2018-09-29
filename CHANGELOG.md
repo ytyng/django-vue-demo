@@ -22,8 +22,8 @@ index.js は app.vue を呼ぶだけにした
 .vue にコンポーネント化
 
 ### demo/demo/urls.py
-/ のURL の際、Django のビューを実行せず、static.serve で index.html をそのまま帰すようにした。
-本番なら、nginx から直接返すといい。
+/ のURL の際、Django のビューを実行せず、static.serve で index.html をそのまま返すようにした。
+本番なら、nginx から直接返すとよさそう。
 
 # PyCharm File Watcher
 ファイルウォッチャーで自動ビルドが可能。
