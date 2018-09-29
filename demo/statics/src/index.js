@@ -1,8 +1,7 @@
 import Vue from 'vue';
-import Axios from 'axios';
 import template from './template.html';
 import './style.scss';
-import myItems from './components/items';
+import myItems from './components/items.vue';
 
 const app = new Vue({
   el: '#demo-items',
@@ -14,10 +13,11 @@ const app = new Vue({
     myItems,
   },
   created() {
-    Axios.get('/items/api/items')
+    fetch('/items/api/items')
       .then((response) => {
-        this.items = response.data.result
-      })
-      .catch((error) => {});
+        return response.json();
+      }).then((data) => {
+      this.items = data.result;
+    });
   },
 });
