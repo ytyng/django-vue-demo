@@ -9,7 +9,11 @@
 
   export default {
     name: 'app',
-    props: ['items'],
+    data() {
+      return {
+        'items': [],
+      }
+    },
     components: {
       myItems,
     },

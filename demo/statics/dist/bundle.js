@@ -1267,7 +1267,11 @@ __webpack_require__.r(__webpack_exports__);
 
 /* harmony default export */ __webpack_exports__["default"] = ({
   name: 'app',
-  props: ['items'],
+  data() {
+    return {
+      'items': [],
+    }
+  },
   components: {
     myItems: _items_vue__WEBPACK_IMPORTED_MODULE_0__["default"],
   },
