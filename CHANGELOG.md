@@ -37,7 +37,7 @@ Name: webpack build
 File type: Any
 
 Scope: 作る。
-statics/src/ 以下の再帰的にウォッチする、という設定が作れる
+statics/src/ 以下を再帰的にウォッチする、という設定が作れる
 
 Program: /usr/local/bin/npm
 Arguments: run build
